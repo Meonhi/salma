@@ -1,4 +1,18 @@
+.body_index {
+    margin: 0;
+}
+
 .header {
-    background-color: beige;
+    background-color: blanchedalmond;
     padding : 10px 20px;
+}
+
+.article {
+    margin :0;
+    background-color: beige;
+    padding: 20px;
+}
+
+nav li {
+    margin: 10px;
 }
