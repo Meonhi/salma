@@ -1,4 +1,4 @@
-input[type="text"],
-input[type="email"] {
-    width: 200px;
+.header {
+    background-color: beige;
+    padding : 10px 20px;
 }
