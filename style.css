@@ -1,3 +1,7 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .body_index {
     margin: 0;
 }
@@ -5,7 +9,9 @@
 .header {
     background-color: blanchedalmond;
     padding : 10px 20px;
+    text-align: center;
 }
+
 
 .article {
     margin :0;
@@ -13,6 +19,12 @@
     padding: 20px;
 }
 
-nav li {
-    margin: 10px;
+nav a {
+    padding: 10px;
+    text-align: center;
 }
+
+nav {
+    padding: 10px;
+}
+
