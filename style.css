@@ -35,3 +35,19 @@ nav {
     padding: 10px;
 }
 
+#lastnameinput {
+    background-color: white;
+}
+
+.index-button {
+    padding : 0.7em;
+    color: white;
+    background-color: #5e5a6d;
+    text-decoration-line: none;
+    border: solid;
+    border-color: #29176A;
+}
+
+h1 {
+    color : #29176A;
+}
