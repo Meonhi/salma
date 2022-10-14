@@ -57,3 +57,11 @@ nav a:hover {
     display: inline;
     text-align: center;
 }
+
+.galerie-nav {
+    position : static;
+    padding: 5px;
+    margin : 8px;
+    top : 0px;
+    background-color: #f8f4e7;
+}
