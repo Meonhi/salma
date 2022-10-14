@@ -11,6 +11,7 @@ text-align: left;
 
 .body-index {
     margin: 0;
+    bottom : 0;
 
 }
 .header-index {
@@ -67,7 +68,7 @@ nav a:hover {
 }
 
 .logo-papillon {
-    position: absolute;
+    position: float;
     top : 0px;
-    left: 400px;
+    left: 0px;
 }
