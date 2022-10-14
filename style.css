@@ -37,7 +37,7 @@ nav a:hover {
 }
 .header-nav {
     padding: 5px;
-    margin : 8px;
+    margin : 0px;
     position : sticky;
     top : 0px;
     background-color: #FAF1D1;
@@ -64,4 +64,10 @@ nav a:hover {
     margin : 8px;
     top : 0px;
     background-color: #f8f4e7;
+}
+
+.logo-papillon {
+    position: absolute;
+    top : 0px;
+    left: 400px;
 }
