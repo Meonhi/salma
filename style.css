@@ -5,9 +5,7 @@ body {
 h1 {
     color : #29176A;
 }
-form {
-text-align: left;
-}
+
 
 .body-index {
     margin: 0;
@@ -34,7 +32,8 @@ nav a {
 nav a:hover {
     text-decoration: underline overline;
 }
-.header-nav {
+
+.menu-nav {
     padding: 5px;
     margin : 0px;
     position : sticky;
@@ -42,20 +41,6 @@ nav a:hover {
     background-color: #FAF1D1;
 }
 
-
-.index-button {
-    padding : 0.5em;
-    color: white;
-    background-color: #5e5a6d;
-    text-decoration-line: none;
-    border: solid;
-    border-color: #29176A;
-}
-
-.prix {
-    display: inline;
-    text-align: center;
-}
 
 .galerie-nav {
     position : static;
@@ -65,10 +50,10 @@ nav a:hover {
     background-color: #f8f4e7;
 }
 
-.logo-papillon {
-    position: float;
-    top : 0px;
-    left: 0px;
+
+.prix {
+    display: inline;
+    text-align: center;
 }
 
 td, th {
@@ -81,5 +66,20 @@ table {
 }
 
 th {
-    background-color: lightgrey;
+    background-color: #f8f4e7;
 }
+
+
+form {
+    text-align: center;
+    }
+
+fieldset {
+    display: inline-grid;
+    text-align: left;
+
+}
+label {
+    text-align: left;
+}
+
