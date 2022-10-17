@@ -97,9 +97,14 @@ label {
     overflow-wrap: break-word;
     overflow: hidden;
     font-weight: 900;
+    font-size: 2em;
+    line-height: 0.8em;
     color: black;
     text-align: center;
 }
 .letter:hover {
     color: red;
+}
+.white:hover {
+    color: white;
 }
