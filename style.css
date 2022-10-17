@@ -1,21 +1,31 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    margin: 0;
 }
 h1 {
     color : #29176A;
 }
 
-
-.body-index {
-    margin: 0;
-}
-.header-index {
+.menu-nav {
+    padding: 5px;
+    margin : 0px;
+    position : sticky;
+    top : 0px;
     background-color: #FAF1D1;
-    padding : 10px 20px;
-    text-align: center;
-    color: #29176A;
 }
+
+.header-index {
+    padding : 30px;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.5), rgba(230, 190, 132, 0.5)), url("galerie/champetre2.JPG");
+}
+.header-index h1 {
+    color: #FAF6EA;
+    font-size: 3.3em;
+    text-align: center;
+}
+
 .article-index {
     margin :0;
     background-color: #FAF6EA;
@@ -33,20 +43,12 @@ nav a:hover {
     text-decoration: underline overline;
 }
 
-.menu-nav {
-    padding: 5px;
-    margin : 0px;
-    position : sticky;
-    top : 0px;
-    background-color: #FAF1D1;
-}
 
 
 .galerie-nav {
     position : static;
     padding: 5px;
-    margin : 8px;
-    top : 0px;
+    margin : 0px;
     background-color: #f8f4e7;
 }
 
@@ -55,7 +57,6 @@ nav a:hover {
     display: inline;
     text-align: center;
 }
-
 td, th {
     border : solid;
     border-width: 1px;
@@ -64,7 +65,6 @@ table {
     table-layout: auto;
     border-collapse : collapse;
 }
-
 th {
     background-color: #f8f4e7;
 }
