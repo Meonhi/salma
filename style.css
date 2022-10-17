@@ -30,6 +30,7 @@ h1 {
     margin :0;
     background-color: #FAF6EA;
     padding: 20px;
+    height: 400px;
     text-align: justify;
 }
 nav a {
@@ -62,7 +63,6 @@ td, th {
     border-width: 1px;
 }
 table {
-    table-layout: auto;
     border-collapse : collapse;
 }
 th {
@@ -75,7 +75,7 @@ form {
     }
 
 fieldset {
-    display: inline-grid;
+    display: inline;
     text-align: left;
 
 }
