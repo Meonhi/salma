@@ -70,3 +70,16 @@ nav a:hover {
     top : 0px;
     left: 0px;
 }
+
+td, th {
+    border : solid;
+    border-width: 1px;
+}
+table {
+    table-layout: auto;
+    border-collapse : collapse;
+}
+
+th {
+    background-color: lightgrey;
+}
