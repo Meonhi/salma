@@ -7,6 +7,10 @@ h1 {
     color : #29176A;
 }
 
+a {
+    text-decoration: none;
+}
+
 .menu-nav {
     padding: 5px;
     margin : 0px;
@@ -83,7 +87,19 @@ label {
     text-align: left;
 }
 
-.social-media-link {
-    text-decoration: none;
+.bloc {
+    position : relative;
+    left : 43%;
+    display : block;
+    width: 208px;
+    height: 208px;
+    border: solid;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    font-weight: 900;
+    color: black;
+    text-align: center;
 }
-
+.letter:hover {
+    color: red;
+}
